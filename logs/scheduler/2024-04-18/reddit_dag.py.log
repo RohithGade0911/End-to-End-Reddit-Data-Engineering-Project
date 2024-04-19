@@ -1,0 +1,17 @@
+[2024-04-18T18:22:55.802+0000] {processor.py:161} INFO - Started process (PID=29) to work on /opt/airflow/dags/reddit_dag.py
+[2024-04-18T18:22:55.814+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-04-18T18:22:55.820+0000] {logging_mixin.py:188} INFO - [2024-04-18T18:22:55.819+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-04-18T18:22:55.844+0000] {logging_mixin.py:188} INFO - [2024-04-18T18:22:55.841+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 6
+    sys.path.insert(__index:0, os.path.abspath(__file__))
+                           ^
+SyntaxError: invalid syntax
+[2024-04-18T18:22:55.845+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-04-18T18:22:56.322+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.931 seconds
