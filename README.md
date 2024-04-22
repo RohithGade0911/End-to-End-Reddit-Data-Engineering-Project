@@ -18,3 +18,6 @@ This project provided a robust data pipeline to extract, transform, and load (ET
 5. **Workflow Management**: Tasks were managed with Apache Airflow and Celery.
 
 ## Architecture
+https://github.com/RohithGade0911/Reddit-Data-Pipeline-Project/blob/main/Architecture.png
+![alt text]((https://github.com/RohithGade0911/Reddit-Data-Pipeline-Project/blob/main/Architecture.png
+) "Architecture")
